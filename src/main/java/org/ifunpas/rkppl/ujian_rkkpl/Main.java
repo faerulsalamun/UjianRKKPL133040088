@@ -18,7 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
         BasicConfigurator.configure();
-
+        
+        // Testing Log4J
         log.debug("Ini adalah debug message : Contoh Log4J");
         log.info("Ini adalah info message : Contoh Log4J");
         log.fatal("Ini adalah fatal message : Contoh Log4J");
